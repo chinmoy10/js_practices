@@ -19,3 +19,12 @@ for(let singleListItem of listItems){
 
     })
 }
+
+const count = document.getElementById("count");
+
+let counterValue = 0;
+
+function addValue(){
+    // console.log(count);
+    co
+}
