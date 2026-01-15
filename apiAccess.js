@@ -75,7 +75,10 @@ const peopleData = [
 ];
 
 
-peopleData.map((person) => {
-    const sentence = `Person's name is ${person.name}. City ${person?.address?.city || "N/A"}. And his twitter address is ${person?.social?.twitter || "fukuchi"}.`
-    console.log(sentence);
-})
+// peopleData.map((person) => {
+//     const sentence = `Person's name is ${person.name}. City ${person?.address?.city || "N/A"}. And his twitter address is ${person?.social?.twitter || "fukuchi"}.`
+//     console.log(sentence);
+// })
+
+const x = peopleData.find((p)=> p.age == 26)
+console.log(x.contact.phone_num);
